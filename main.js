@@ -40,6 +40,10 @@ function setup() {
   canvas.position(0, 150);
 }
 
+function preload() { 
+  apple = loadImage("apple.png"); 
+}
+
 function draw() {
   if (draw_apple == "set") {
     for (var i = 1; i <= to_number; i++) {
